@@ -1,0 +1,82 @@
+.post-buttons {
+  margin-bottom: 0px;
+  display: flex;
+}
+
+.like {
+  background-color: #fbf9fa;
+  color: palevioletred;
+  border: none;
+  cursor: pointer;
+}
+
+.notLike {
+  background-color: #fbf9fa;
+  color: black;
+  border: none;
+  cursor: pointer;
+}
+
+.comment {
+  background-color: #fbf9fa;
+  color: black;
+  border: none;
+  cursor: pointer;
+}
+
+.username-block {
+  display: flex;
+  align-items: flex-end;
+}
+
+.share {
+  color: black;
+  border: none;
+  cursor: pointer;
+  background-color: #fbf9fa;
+}
+
+.post-card {
+  border: 1px solid #fd0054;
+  border-top: none;
+  /* margin: 5%; */
+  text-align: justify;
+  padding: 0% 5% 2% 5%;
+}
+
+.post-title {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: black;
+  font-weight: 900;
+}
+
+.post-body {
+  color: black;
+}
+
+.user {
+  color: #a80038;
+  /* display: flex; */
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+.username {
+  color: #a80038;
+  /* display: flex; */
+  margin-bottom: 0px;
+  padding: 1%;
+  padding-bottom: 0.3%;
+  font-size: 90%;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.view-comments {
+  color: #008dda;
+  cursor: pointer;
+  font-style: italic;
+  background-color: #f7eedd;
+  border: white;
+}
