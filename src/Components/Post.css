@@ -44,6 +44,12 @@
   padding: 0% 5% 2% 5%;
 }
 
+.post-header {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+}
+
 .post-title {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   color: black;
@@ -56,21 +62,20 @@
 
 .user {
   color: #a80038;
-  /* display: flex; */
   font-size: 1.2rem;
   font-weight: bold;
-  margin-bottom: 0px;
+  margin-left: 0.5rem;
+  width: fit-content;
 }
 
 .username {
   color: #a80038;
-  /* display: flex; */
-  margin-bottom: 0px;
-  padding: 1%;
-  padding-bottom: 0.3%;
-  font-size: 90%;
+  font-size: 0.8rem;
   font-style: italic;
   font-weight: 400;
+  margin-left: 0.5rem;
+  margin-bottom: 1.2rem;
+  color: #a80038;
 }
 
 .view-comments {

@@ -5,6 +5,8 @@ import FavoriteIcon from "@mui/icons-material/Favorite";
 import ModeCommentOutlinedIcon from "@mui/icons-material/ModeCommentOutlined";
 import ShareIcon from "@mui/icons-material/Share";
 import { Link } from "react-router-dom";
+import { Link as MatLink } from "@mui/material";
+import Avatar from "@mui/material/Avatar";
 
 export default function Post(props) {
   // console.log(props.user);
@@ -42,12 +44,19 @@ export default function Post(props) {
 
   return (
     <div className="post-card">
-      <Link to={`/users/${props.user[2]}`} style={{ textDecoration: "none" }}>
-        <div className="username-block">
-          <p className="user">{props.user[0]}</p>
-          <p className="username">@{props.user[1]}</p>
-        </div>
-      </Link>
+      <div className="post-header">
+        <Avatar sx={{ bgcolor: "pink" }}>{props.user[0][0]}</Avatar>
+        <MatLink
+          component={Link}
+          to={`/users/${props.user[2]}`}
+          underline="hover"
+        >
+          <div className="username-block">
+            <p className="user">{props.user[0]}</p>
+            <p className="username">@{props.user[1]}</p>
+          </div>
+        </MatLink>
+      </div>
       <hr />
       <h3 className="post-title">{props.post.title}</h3>
       <p className="post-body">{props.post.body}</p>

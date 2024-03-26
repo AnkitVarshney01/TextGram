@@ -5,45 +5,33 @@
 .left-pane {
   position: fixed;
   height: 100vh;
-  padding-top: 20vh;
 }
 
 .logo {
   width: 4rem;
   margin: 2rem 0;
-  color: #a80038;
 }
 
 .sidebar-links {
   text-decoration: none;
-  color: black;
-  padding: 1rem;
 }
 
 .sidebar-container {
   display: flex;
-  padding: 0.5rem 0rem;
-  width: 7rem;
   align-items: center;
-}
-
-.sidebar-container:hover {
-  background-color: beige;
-  padding: 0.5rem 0rem;
-  border-bottom-left-radius: 9999px;
-  border-bottom-right-radius: 9999px;
-  border-top-left-radius: 9999px;
-  border-top-right-radius: 9999px;
-  transition: 0.2s;
+  padding-right: 1rem;
 }
 
 .sidebar-icons {
   margin-right: 1rem;
+  color: black;
 }
 
 .sidebar-text {
   font-size: large;
   font-weight: 400;
+  color: black;
+  text-transform: none;
 }
 
 .post-heading {
@@ -65,7 +53,7 @@
 .posts {
   left: 25%;
   right: 25%;
-  min-width: 25%;
-  top: 50px;
+  /* min-width: 25%; */
+  top: 51px;
   position: absolute;
 }
